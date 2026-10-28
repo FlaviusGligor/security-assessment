@@ -10,8 +10,8 @@
 ## 🎓 Academic Context & Project Ownership
 
 * **Project Type:** Individual Academic Project
-* **Institution:** West University of Timișoara (Universitatea de Vest din Timișoara - UVT)
-* **Faculty:** Faculty of Mathematics and Computer Science (Informatică)
+* **Institution:** West University of Timișoara (Universitatea de Vest din Timisoara - UVT)
+* **Faculty:** Faculty of Mathematics and Computer Science
 * **Program / Initiative:** Google Cybersecurity Seminars - Virtual Routes
 * **Author / Analyst:** Flavius Răzvan Gligor
 * **Assessment Date:** 2026
@@ -19,7 +19,7 @@
 ### Academic Deliverable Summary
 This repository contains my individual capstone assessment for the Google Cybersecurity Seminars program at UVT. The objective was to perform an end-to-end security audit and risk evaluation for an operational SME in the local business community, translating academic security principles into an actionable industry deliverable.
 
-> **Data Privacy & Compliance Notice:** In compliance with professional ethics, non-disclosure requirements, and corporate privacy (PII), all specific network identifiers, business names, staff identities, and IP addresses have been fully anonymized.
+> **Data Privacy & Compliance Notice:** In compliance with professional ethics, non-disclosure requirements, and corporate privacy, all specific network identifiers, business names, staff identities, and IP addresses have been fully anonymized.
 
 ---
 
