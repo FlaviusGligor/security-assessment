@@ -1,31 +1,46 @@
-# security-assessment
-Cybersecurity risk assessment and POS infrastructure security audit for a local hospitality venue.
 # Hospitality & POS Cybersecurity Risk Assessment
 
-![Security Shield](https://img.shields.io/badge/Domain-Cybersecurity_Audit-blue)
-![Sector](https://img.shields.io/badge/Industry-Hospitality_/_Horeca-purple)
-![Framework](https://img.shields.io/badge/Framework-NIST_CSF_/_CIS_Controls-green)
-![Context](https://img.shields.io/badge/Academic-Google_Cybersecurity_Seminars_UVT-orange)
-
-## Overview
-This repository presents a practical **Cybersecurity Risk & Infrastructure Assessment** conducted for a local Hospitality establishment (Restaurant / Bar venue). 
-
-The evaluation focuses on critical operational pain points common in the Horeca sector: point-of-sale (POS) network isolation, credentials management during multi-shift operations, guest Wi-Fi co-mingling, and physical/operational access security.
-
-> **Data Privacy & Anonymization:** All infrastructure identifiers, venue details, employee information, and IP addresses have been fully anonymized (PII/Corporate Privacy).
+![Academic Project](https://img.shields.io/badge/Academic_Project-Individual-blue)
+![University](https://img.shields.io/badge/Institution-West_University_of_Timi%C8%99oara_(UVT)-darkblue)
+![Program](https://img.shields.io/badge/Program-Google_Cybersecurity_Seminars-orange)
+![Framework](https://img.shields.io/badge/Framework-NIST_CSF_2.0_/_CIS_Controls-green)
 
 ---
 
-## Scope & Operational Domains Evaluated
+## 🎓 Academic Context & Project Ownership
 
-* **POS Infrastructure & Payment Processing:** Network routing, POS endpoint isolation (Freya POS environment), and peripheral device exposure.
-* **Network Segmentation & Wireless Security:** Co-existence of public guest Wi-Fi and internal business management networks.
-* **Identity & Shift Management:** Shared account credentials, administrative privileges across staff shifts, and role-based access.
-* **Physical Security & Endpoint Hygiene:** Access to network hardware, unattended terminals, and physical cabinet locking.
+* **Project Type:** Individual Academic Project
+* **Institution:** West University of Timișoara (Universitatea de Vest din Timișoara - UVT)
+* **Faculty:** Faculty of Mathematics and Computer Science (Informatică)
+* **Program / Initiative:** Google Cybersecurity Seminars - Virtual Routes
+* **Author / Analyst:** Flavius Răzvan Gligor
+* **Assessment Date:** 2026
+
+### Academic Deliverable Summary
+This repository contains my individual capstone assessment for the Google Cybersecurity Seminars program at UVT. The objective was to perform an end-to-end security audit and risk evaluation for an operational SME in the local business community, translating academic security principles into an actionable industry deliverable.
+
+> **Data Privacy & Compliance Notice:** In compliance with professional ethics, non-disclosure requirements, and corporate privacy (PII), all specific network identifiers, business names, staff identities, and IP addresses have been fully anonymized.
 
 ---
 
-## Key Assessment Findings & Risk Matrix
+## 📌 Executive Overview
+
+This project presents a comprehensive **Cybersecurity Risk & Infrastructure Assessment** conducted for a local Hospitality venue (Restaurant / Bar). 
+
+The evaluation focuses on operational pain points critical to the Horeca sector: point-of-sale (POS) network isolation, multi-shift credential governance, guest Wi-Fi segregation, and physical/operational endpoint security.
+
+---
+
+## 🎯 Scope & Operational Domains Evaluated
+
+* **POS Infrastructure & Payment Processing:** Network routing, POS endpoint isolation (Freya POS environment), and peripheral device security.
+* **Network Segmentation & Wireless Security:** Co-existence of public guest Wi-Fi and internal management networks.
+* **Identity & Access Management (IAM):** Shared account credentials across multi-shift staff, administrative privileges, and role-based access.
+* **Physical Security & Endpoint Hygiene:** Physical access to networking hardware, unattended terminals, and cabinet locking.
+
+---
+
+## 📊 Key Assessment Findings & Risk Matrix
 
 | Risk ID | Domain | Identified Vulnerability / Threat Scenario | Severity | Remediation Strategy |
 | :--- | :--- | :--- | :--- | :--- |
@@ -36,13 +51,19 @@ The evaluation focuses on critical operational pain points common in the Horeca 
 
 ---
 
-## Applied Frameworks & Standards
+## 🛠️ Frameworks & Methodologies Applied
+
 * **NIST Cybersecurity Framework (NIST CSF 2.0):** Identify, Protect, Detect, Respond, Recover.
-* **CIS Critical Security Controls (v8):** Implementation Group 1 (IG1 - Small Business Hygiene).
+* **CIS Critical Security Controls (v8):** Implementation Group 1 (IG1 - Small Business Baseline).
 
 ---
 
-## Repository Structure
-* `/docs/Executive_Summary.md` - Non-technical high-level briefing for business owners/managers.
-* `/docs/Risk_Assessment_Report.md` - Technical audit report with threat models and mitigation steps.
-* `/templates/Assessment_Checklist.md` - Hospitality-focused security evaluation matrix.
+## 📂 Repository Structure
+
+```text
+├── README.md                           <-- Overview, Academic Context & Risk Matrix
+├── docs/
+│   ├── Executive_Summary.md            <-- Non-technical briefing for management
+│   └── Risk_Assessment_Report.md       <-- Detailed technical audit & mitigation steps
+└── templates/
+    └── Assessment_Checklist.md         <-- Hospitality-focused security evaluation matrix
